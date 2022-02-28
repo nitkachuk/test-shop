@@ -1,0 +1,136 @@
+@font-face {
+    font-family: SourceSansPro; 
+    src: url(../fonts/SourceSansPro-Regular.ttf);
+}
+
+@font-face {
+    font-family: Inter; 
+    src: url(../fonts/Inter-Regular.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "SourceSansPro";
+}
+
+body {
+    padding: 32px;
+    background-color: ##E5E5E5;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+    .caption-label {
+        font-size: 28px;
+        font-weight: 600;
+        color: #3F3F3F;
+    }
+
+    header select {
+        width: 122px;
+        height: 35px;
+        text-align: center;
+        font-size: 12px;
+        background: #FFFEFB;
+        box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+        border-radius: 4px;
+        border: none;
+        color: #B4B4B4;
+    }
+
+main {
+    margin-top: 16px;
+    display: flex;
+}
+
+    nav {
+        background-color: #FFFEFB;
+        width: 332px;
+        height: 440px;
+        padding: 8px 24px;
+        color: #49485E;
+        box-shadow: 0px 20px 30px rgba(0, 0, 0, 0.04), 0px 6px 10px rgba(0, 0, 0, 0.02);
+        border-radius: 4px;
+    }
+
+        nav p {
+            font-size: 10px;
+            letter-spacing: -0.02em;
+            margin-top: 16px;
+        }
+
+        nav input {
+            height: 36px;
+        }
+
+        nav textarea {
+            height: 108px;
+            padding-top: 10px;
+            resize: none; 
+        }
+
+            .input-styled {
+                background-color: #FFFEFB;
+                width: 284px;
+                padding-left: 16px;
+                border: none;
+                margin-top: 4px;
+                box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+                border-radius: 4px;
+            }
+
+        nav button {
+            width: 284px;
+            height: 36px;
+            background: #EEEEEE;
+            border-radius: 10px;
+            border: none;
+            font-size: 12px;
+            font-family: "Inter";
+            margin-top: 24px;
+            color: #B4B4B4;
+        }
+
+    .content {
+        width: 100%;
+        height: 100%;
+        margin-left: 16px;
+        display: grid;
+        grid-template-columns: repeat( auto-fill, 332px );
+        gap: 16px 16px;
+        justify-content: center;
+    }
+
+        article {
+            width: 332px;
+            height: 423px;
+            color: #3F3F3F;
+            background: #FFFEFB;
+            box-shadow: 0px 20px 30px rgba(0, 0, 0, 0.04), 0px 6px 10px rgba(0, 0, 0, 0.02);
+        }
+
+            .item-caption {
+                width: 332px;
+                font-weight: 600;
+                font-size: 20px;
+                margin: 16px;
+            }
+
+            .item-text {
+                width: 300px;
+                font-size: 16px;
+                margin-left: 16px;
+            }
+
+            .item-price {
+                width: 300px;
+                font-weight: 600;
+                font-size: 24px;
+                margin-left: 16px;
+                margin-top: 32px;
+            }
