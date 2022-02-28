@@ -22,16 +22,26 @@
 
     <main>
         <nav>
-            <p>Наименование товара</p>
+            <p>
+                Наименование товара
+                <span class="marker">&bull;</span>
+            </p>
             <input class="input-styled" type="text" placeholder="Введите наименование товара">
+            
 
             <p>Описание товара</p>
             <textarea class="input-styled" placeholder="Введите описание товара"></textarea>
 
-            <p>Ссылка на изображение товара</p>
+            <p>
+                Ссылка на изображение товара
+                <span class="marker">&bull;</span>
+            </p>
             <input class="input-styled" type="text" placeholder="Введите ссылку">
 
-            <p>Цена товара</p>
+            <p>
+                Цена товара
+                <span class="marker">&bull;</span>
+            </p>
             <input class="input-styled" type="text" placeholder="Введите цену">
 
             <button>Добавить товар</button>
@@ -54,18 +64,20 @@
             </article>
 
             <article>
-                <img src="images/item.jpg">
-                <p class="item-caption">
-                    Наименование товара
-                </p>
-                <p class="item-text">
-                    Довольно-таки интересное описание товара 
-                    в несколько строк. Довольно-таки интересное 
-                    описание товара в несколько строк
-                </p>
-                <p class="item-price">
-                    10 000 руб.
-                </p>
+                <div class="delete-icon"></div>
+                    <img src="images/item.jpg">
+                    <p class="item-caption">
+                        Наименование товара
+                    </p>
+                    <p class="item-text">
+                        Довольно-таки интересное описание товара 
+                        в несколько строк. Довольно-таки интересное 
+                        описание товара в несколько строк
+                    </p>
+                    <p class="item-price">
+                        10 000 руб.
+                    </p>
+                <div class="pointer-icon"></div>
             </article>
 
             <article>
